@@ -2,22 +2,11 @@ package collector
 
 import (
 	"database/sql"
-	"errors"
 	"fmt"
 	"io/ioutil"
-	"math"
-	"net/http"
 	"net/url"
-	"os"
-	"regexp"
-	"runtime"
-	"strconv"
-	"strings"
 	"sync"
 	"time"
-
-	"gopkg.in/alecthomas/kingpin.v2"
-	"gopkg.in/yaml.v2"
 
 	"crypto/sha256"
 
